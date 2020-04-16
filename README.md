@@ -1,8 +1,7 @@
 # Media Scraper Tool for Chrome
 ### A Google Chrome extension that offers a clean UI for viewing and downloading media on the web.
 
-![alt text](icon.png "Logo Title Text 1")
-
+When a linked image is clicked the event is interupted and the media viewer is opened in a new tab. The following script gets injected into the current tab.
 
 ```javascript
   let anchor_tags = document.body.querySelectorAll('a');
@@ -26,4 +25,5 @@
     }
   });
 ```
-When a linked image is clicked the event is interupted and the media viewer is opened in a new tab.
+
+> The script itself provides standalone functionality and works on Chrome, Firefox, and Edge. Copy and paste the code into your browser's developer console to try it out.
