@@ -1,6 +1,8 @@
 # Media Scraper Tool for Chrome
 ### A Google Chrome extension that offers a clean UI for viewing and downloading media on the web.
 
+![alt text](icon.png "Logo Title Text 1")
+
 
 ```javascript
   let anchor_tags = document.body.querySelectorAll('a');
