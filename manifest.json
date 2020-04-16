@@ -1,0 +1,26 @@
+{
+  "name": "That's mine now",
+  "version": "1.0",
+  "description": "A simple way to filter your sub feed because YouTube sucks.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "declarativeContent",
+    "webNavigation"
+  ],
+  "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+  }],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "index.html"
+  },
+  
+  "manifest_version": 2
+}
