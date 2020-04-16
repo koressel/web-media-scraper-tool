@@ -26,4 +26,5 @@ When a linked image is clicked the event is interupted and the media viewer is o
   });
 ```
 
+
 > The script itself provides standalone functionality and works on Chrome, Firefox, and Edge. Copy and paste the code into your browser's developer console to try it out.
