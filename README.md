@@ -1,5 +1,5 @@
 # Media Scraper Tool for Chrome
-### A Google Chrome extension that offers a clean UI for viewing and downloading media on the web.
+### A Google Chrome extension offering a clean UI for viewing and downloading media on the web.
 
 When a linked image is clicked the event is interupted and the media viewer is opened in a new tab. The following script gets injected into the current tab.
 
